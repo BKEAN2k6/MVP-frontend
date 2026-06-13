@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: whitesmoke;
+}
+
+.page{
+width: 100%;
+max-width: 1000px;
+position: relative;
+padding-bottom: 70px;
+background-color: white;
+}
+
+.page img{
+    max-width: 100%;
+    height:  auto;
+    display: block;
+}
+
+.document{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.next-button{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+height: 45px;
+border-radius: 8px;
+background-color: blue;
+color: white;
+text-decoration: none;
+font-size: 20px;
+position: absolute;
+right: 16px;
+bottom: 12px;
+}
+
+.previous-button{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+height:45px;
+border-radius: 8px;
+background-color: blue;
+color: white;
+text-decoration: none;
+font-size: 20px;
+position: absolute;
+left: 20px;
+bottom: 12px;
+}
+
+nav{
+    border: 1px solid yellowgreen;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+nav a{
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+    background: white;
+  border: 1px solid red;
+  color: red; 
+}
+
+.header{
+    padding: 20px;
+}
